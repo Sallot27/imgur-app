@@ -1,0 +1,30 @@
+.imgur-app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .imgur-app h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .imgur-app input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .imgur-app button {
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+  }
